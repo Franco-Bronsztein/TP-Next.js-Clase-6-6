@@ -2,7 +2,7 @@
 
 
 import Image from "next/image";
-import styles from "./page.module.css";
+import "./page.module.css";
 import Titulo from './components/Titulo/Titulo';
 import Subtitulo from './components/Subtitulo/Subtitulo';
 import Card from './components/Card/Card';

@@ -6,30 +6,15 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FoodSave",
-  description: "The best Food APP",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link href="/..."></link>
       <body className={inter.className}>{children}</body>
-      <nav>
-      <ul>
-        <li>
-          <Link href="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/ayuda"
-          >
-            Ayuda
-          </Link>
-        </li>
-      </ul>
-    </nav>
     </html>
   );
 }
