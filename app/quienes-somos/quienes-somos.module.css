@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.h1 {
+    color: #333;
+}
+
+.p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 10px;
+}

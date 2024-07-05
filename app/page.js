@@ -1,7 +1,6 @@
 "use client"
 
-
-import Image from "next/image";
+import Link from 'next/link';
 import "./page.module.css";
 import Titulo from './components/Titulo/Titulo';
 import Subtitulo from './components/Subtitulo/Subtitulo';
@@ -15,6 +14,22 @@ export default function app() {
 
   return (
     <>
+      <nav>
+                <ul>
+                    <li>
+                        <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link href="/quienes-somos">Quienes Somos</Link>
+                    </li>
+                    <li>
+                        <Link href="/reservas">Reservas</Link>
+                    </li>
+                    <li>
+                        <Link href="/contacto">Contacto</Link>
+                    </li>
+                </ul>
+      </nav>
       <Titulo></Titulo>
       <div class="container">
         <div class="row">
