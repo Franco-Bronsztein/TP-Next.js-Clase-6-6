@@ -1,70 +1,29 @@
 /* styles/reservas.module.css */
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-  }
-  
-  .row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    width: 100%;
-    max-width: var(--max-width);
-  }
-  
-  .one-half {
-    width: 100%;
-  }
-  
-  .column {
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .form label {
-    font-weight: bold;
-  }
-  
-  .form input,
-  .form textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .form button {
-    padding: 0.75rem 1rem;
-    background-color: #0070f3;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .form button:hover {
-    background-color: #0056b3;
-  }
-  
-  @media (max-width: 768px) {
-    .row {
-      grid-template-columns: 1fr;
-    }
-  }
-  .formlabel {
-    font-weight: bold;
-    color: #000; 
-  }
+.quienesSomos {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.quienesSomos h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding-left: 400px;
+}
+
+.quienesSomos p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.p
+{
+    padding-left: 940px;
+}

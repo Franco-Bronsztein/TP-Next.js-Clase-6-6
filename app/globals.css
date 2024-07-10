@@ -124,3 +124,28 @@ a {
       margin-left: 4%;
   }
 }
+
+.NAVBAR {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent; /* Fondo transparente */
+}
+
+.NAVBAR li {
+  float: left;
+}
+
+.NAVBAR li a {
+  display: block;
+  color: #333; /* Color del texto */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.NAVBAR li a:hover {
+  background-color: #949494; /* Color de fondo al pasar el mouse */
+  color: #555; /* Color del texto al pasar el mouse */
+}

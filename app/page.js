@@ -14,22 +14,6 @@ export default function app() {
 
   return (
     <>
-      <nav>
-                <ul>
-                    <li>
-                        <Link href="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link href="/quienes-somos">Quienes Somos</Link>
-                    </li>
-                    <li>
-                        <Link href="/reservas">Reservas</Link>
-                    </li>
-                    <li>
-                        <Link href="/contacto">Contacto</Link>
-                    </li>
-                </ul>
-      </nav>
       <Titulo></Titulo>
       <div class="container">
         <div class="row">
