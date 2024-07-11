@@ -6,11 +6,17 @@ import Titulo from './components/Titulo/Titulo';
 import Subtitulo from './components/Subtitulo/Subtitulo';
 import Card from './components/Card/Card';
 import FormCItas from './components/FormCitas/FormCitas';
-import { useState } from 'react';
+import { useState , useEffect} from 'react';
 
 
 export default function app() {
-  const [citas, setCitas] = useState([]);
+  
+  const [citas, setCitas] = useState(localStorage.getItem("citas") ? JSON.parse(localStorage.getItem("citas")) : []);
+  useEffect(() => {
+    if (citas?.length) {
+      localStorage.setItem("citas", JSON.stringify(citas));
+    }
+  }, [citas]);
 
   return (
     <>
